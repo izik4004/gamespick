@@ -1,7 +1,7 @@
 // import { useState } from 'react'
-// import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
-import Sidebar from "./components/Sidebar"
+import Sidebar from "./components/sidebar/Sidebar"
 
 
 function App() {
@@ -10,10 +10,13 @@ function App() {
   return (
    
       <div className="container">
-      <Sidebar/>
-      
-     <h1>Hello</h1>
-     <button>me</button>
+        <Router>
+        <Sidebar/>
+          <Routes>
+            <Route></Route>
+          </Routes>
+          </Router>
+ 
      </div>
     
   )
