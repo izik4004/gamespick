@@ -1,27 +1,26 @@
-import {MdDashboard} from "react-icons/md"
+import { MdDashboard } from "react-icons/md";
+// import {FaGift} from "react-icons/fa"
+// import {IoGameController} from "react-icons/io"
+// import {BiMoney} from "react-icons/bi"
+// import {HiFire} from "react-icons/hi"
 
  export const SidebarData = [
-    // {
-    //     name:"",
-    //     // icon:<MdDashboard/>
-    // },
     {
+        icon: <MdDashboard />, 
         name: 'Dashboard',
-        // path: '/',
-        icon: <MdDashboard/>,
-        
+         
     },
     {
         name:"Rewards",
-        // icon:<MdDashboard/>
+        // icon:<FaGift/>
     },
     {
         name:"Games",
-        // icon:<MdDashboard/>
+        // icon:<IoGameController/>
     },
     {
         name:"Stake",
-        // icon:<MdDashboard/>
+        // icon:<BiMoney/>
     },
     {
         name:"Predictions",
@@ -29,6 +28,6 @@ import {MdDashboard} from "react-icons/md"
     },
     {
         name:"Governance",
-        // icon:<MdDashboard/>
+        // icon:<HiFire/>
     }
 ]

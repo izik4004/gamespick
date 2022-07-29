@@ -2,8 +2,9 @@
     background-color: #161616;
     display: flex;
     position: relative;
-    padding-top: 1rem;
+    /* padding-top: 0.1rem; */
     /* justify-items: center; */
+    border-radius: 4px;
     color: #CFCDD8;
     flex-direction: column;
     transition: all 300ms ease
@@ -15,7 +16,7 @@ font-family: 'Gill Sans Display MT Bold';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-line-height: 45px;
+/* line-height: 45px; */
 align-items: center;
 justify-content: center;
 /* identical to box height, or 94% */
@@ -34,14 +35,58 @@ color: #CFCDD8;
 /* menu */
 
 .menu {
-    margin-top: 3rem;
+    /* margin-top: 1rem; */
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 0.5rem;
 }
 
 .menuItem {
     display:flex;
     align-items: center;
     gap:1rem;
+    /* height: rem; */
+    margin:0rem 4rem;
+    position: relative;
+    transition: all 300ms ease;
+    font-size: 14px;
+    padding:10px 30px
+}
+
+.menuItem:hover {
+    cursor: pointer;
+    background-color: #13ECAE;
+    transition: all 300ms ease;
+    color: #161616;
+    border-radius: 4px;
+    
+}
+
+.active {
+    background-color: #13ECAE;
+    transition: all 300ms ease;
+    color: #161616;
+    border-radius: 4px;
+}
+
+/* .active::before{
+    content: '';
+    width:8px;
+    height: 100%;
+    background:#161616;
+} */
+
+.leaderboard {
+    background: #232323;
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+/* padding: 12px 0px 0px; */
+gap: 1px;
+margin:0rem 2rem;
+/* width: 264px; */
+height: 403px;
+
+background: #232323;
+border-radius: 20px;
 }

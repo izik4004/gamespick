@@ -17,7 +17,7 @@
 .App {
   /* max-width: 100rem; */
   /* margin-inline: auto; */
-  background-color: #242424;
+  background-color: #000002;
   background-color: dark;
   height: 100vh;
   display: flex;
@@ -27,13 +27,13 @@
 }
 .App-container {
   display: grid;
-  height: 90%;
-  width: 97%;
-  border-radius: 2rem;
+  height: 92%;
+  width: 99%;
+  border-radius: 1rem;
   font-family:Georgia, 'Times New Roman', Times, serif;
   overflow: hidden;
   grid-template-columns: 20rem auto;
-  background-color: red;
+  /* background-color: red; */
 }
 a {
   font-weight: 500;
