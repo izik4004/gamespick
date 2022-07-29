@@ -1,14 +1,14 @@
-import * as MdIcons from "react-icons/md"
+import {MdDashboard} from "react-icons/md"
 
- export const sidebarData = [
-    {
-        name:"",
-        // icon:<MdDashboard/>
-    },
+ export const SidebarData = [
+    // {
+    //     name:"",
+    //     // icon:<MdDashboard/>
+    // },
     {
         name: 'Dashboard',
         // path: '/',
-        // icon: <MdIcons.MdDashboard />,
+        icon: <MdDashboard/>,
         
     },
     {
